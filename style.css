@@ -7,7 +7,7 @@ font-family: "Poppins", sans-serif;
 
 body {
 min-height: 100vh;
-background: url(modulebg3.jpg) no-repeat;
+background: url(homebg.jpg) no-repeat;
 background-size: cover;
 background-position: center;
 }
@@ -53,13 +53,13 @@ left: 100%;
 
 .logo {
 font-size: 2rem;
-color: #fff;
+color:#fff;
 text-decoration: none;
 font-weight: 700;
 }
 
 .navbar a {
-font-size: 1.1rem;
+font-size: 1.0rem;
 color: #fff;
 text-decoration: none;
 font-weight: 500;
@@ -124,7 +124,7 @@ height: 17.7rem;
 
 .navbar a {
 display: block;
-font-size: 1.1rem;
+font-size: 1.0rem;
 margin: 1.9rem 0;
 text-align: center;
 transform: translateY(-50px);
@@ -149,26 +149,26 @@ color: #fff;
 }
 
 .content h1{
-font-size: 53px;
-margin-top: 85px;
+font-size: 49px;
+margin-top: 90px;
 }
 
 .content p{
 margin: 10px auto;
-font-weight: 100;
+font-weight: 80px;
 line-height: 25px;
-font-size:17px;
+font-size: 17px;
 }
 
 button {
-width: 190px;
-padding: 18px 0;
+width: 200px;
+padding: 15px 0;
 text-align: center;
 margin: 20px 10px;
 border-radius: 25px;
 font-weight: bold;
-border: 2px solid #2c84b0;
-background: transparent;
+border: 2px solid #b234cf;
+background: #b234cf;
 color: #fff;
 cursor: pointer;
 position: relative;
@@ -177,7 +177,7 @@ font-size: 15px;
 }
 
 span {
-background: #2c84b0;
+background: #b234cf;
 height: 100%;
 width: 0;
 border-radius: 25px;
@@ -188,10 +188,11 @@ z-index: -1;
 transition: 0.5s;
 }
 
-button:hover span {
+:hover span {
 width: 100%;
 }
 
 button:hover{
 border: none;
 }
+
